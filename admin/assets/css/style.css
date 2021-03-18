@@ -614,6 +614,14 @@ canvas {
     background: #fb9678
 }
 
+.order-table .badge-delete {
+    background: #ff2e44;
+}
+
+.order-table .badge-edit {
+    background: #33a2ff;
+}
+
 .messenger-box {
     padding-top: 15px
 }
@@ -1625,7 +1633,7 @@ header .form-inline .search-form.close {
 
 .card .box-title {
     font-weight: 600;
-    font-size: 1em;
+    font-size: 20px;
     padding: 5px 0
 }
 
@@ -3333,4 +3341,19 @@ footer.site-footer .footer-inner a {
 .field_error{
     color: red;
     margin-top: 15px;
+}
+
+.card .box-link {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.card .box-link a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.badge a{
+    color: #fff;
 }
