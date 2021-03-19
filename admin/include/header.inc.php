@@ -1,6 +1,8 @@
 <?php
 require('include/connection.inc.php');
 require('include/functions.inc.php');
+require('include/constants.inc.php');
+
 if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN'] != ''){
 
 }
